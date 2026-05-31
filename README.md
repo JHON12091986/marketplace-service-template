@@ -12,7 +12,7 @@ You provide the idea. We provide 148 mobile devices across 6 countries (DE, PL, 
 
 You're arbitraging infrastructure. Buy proxy bandwidth wholesale, sell API calls retail.
 
-**Proxy cost:** $4/GB shared, $8/GB private ([live pricing](https://api.proxies.sx/v1/x402/pricing))
+**Proxy cost:** flat **$4/GB** — one simple rate, all 6 countries, mobile + residential ([live pricing](https://api.proxies.sx/v1/x402/pricing)). Duration is free; you only pay for the GB you actually use.
 
 Your margin depends on what you're scraping:
 
@@ -135,7 +135,7 @@ Browse the full catalog: [agents.proxies.sx/marketplace](https://agents.proxies.
 
 | Service | Endpoints | Price | Builder |
 |---------|-----------|-------|---------|
-| [Mobile Proxy](https://agents.proxies.sx/marketplace/proxy/) | `/v1/x402/proxy` | $4/GB shared, $8/GB private | Proxies.sx |
+| [Mobile Proxy](https://agents.proxies.sx/marketplace/proxy/) | `/v1/x402/proxy` | flat $4/GB | Proxies.sx |
 | [Google Maps Lead Generator](https://agents.proxies.sx/marketplace/google-maps-lead-generator/) | `/maps/run`, `/maps/details` | $0.005/record | [@aliraza556](https://github.com/aliraza556) |
 | [Mobile SERP Tracker](https://agents.proxies.sx/marketplace/serp-tracker/) | `/serp/run` | $0.003/query | [@aliraza556](https://github.com/aliraza556) |
 | Reviews & Business Data | `/reviews/*`, `/business/:id` | $0.005–$0.02 | [@aliraza556](https://github.com/aliraza556) |
