@@ -1,10 +1,21 @@
-## Servicio de Predicción de Salud (`health_api.py`)
+# Trend Intelligence API
 
-Este servicio complementa el análisis de inteligencia de tendencias, permitiendo a los agentes de IA enviar biomarcadores y recibir una evaluación clínica profesional.
+## Overview
+A cross-platform research API that scrapes Reddit, X/Twitter, YouTube, and the web simultaneously for any topic, then synthesizes the results into a structured intelligence report with engagement-weighted scoring.
 
-**Endpoint:**
-- `POST /analyze-biomarkers`
-  - Body: `{"glucose": 130, "haemoglobin": 11.0, "cholesterol": 250}`
-  - Respuesta: Evaluación de riesgos y un reporte clínico generado por IA.
+## Endpoints
 
-**Tecnología:** Utiliza el modelo `google/gemini-2.5-flash:free` a través de OpenRouter para la generación de reportes.
+GET /api/research?query=<topic>&depth=<shallow|deep>
+GET /api/trending?platform=<reddit|youtube|twitter|all>
+GET /api/sentiment?query=<topic>
+GET /health
+
+## Tech Stack
+- Python + aiohttp
+- Reddit JSON API
+- DuckDuckGo HTML
+- Nitter RSS (Twitter/X fallback)
+- Invidious (YouTube)
+
+## Bounty
+Proxies.sx Bounty #70 — $100 in $SX token
